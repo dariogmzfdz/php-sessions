@@ -1,0 +1,173 @@
+@import url(//db.onlinewebfonts.com/c/82848488b73a87d72f2436c02b9ab608?family=ONE+PIECE);
+
+body {
+    /* font-family: 'One Piece', sans-serif; */
+    background-image: url("../img/background-img.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.header-container {
+    overflow: hidden;
+    background-color: rgba(175, 66, 23, 0.661);
+    border-radius: 10px;
+}
+
+.header-container a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header-container a:hover {
+    background-color: rgba(130, 52, 22, 0.834);
+    color: black;
+}
+
+.header-container a.active {
+    background-color: rgba(82, 33, 14, 0.834);
+    color: white;
+}
+
+.user-name img {
+    width: 20px;
+    vertical-align: middle;
+}
+
+.user-logout {
+    float: left;
+    overflow: hidden;
+}
+
+.user-logout .user-name {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+}
+
+.user-name:hover {
+    background-color: rgba(130, 52, 22, 0.834);
+    color: black;
+}
+
+.logout {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 16px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.logout .btn {
+    display: block;
+    float: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.logout .btn:hover {
+    background-color: #ddd;
+}
+
+.user-logout:hover .logout {
+    display: block;
+}
+
+.btn {
+    background: none;
+    border: none;
+}
+
+.body-container {
+    width: 60%;
+    text-align: center;
+    margin: 5%;
+    padding: 2%;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+        rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+        rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+        rgba(0, 0, 0, 0.06) 0px 2px 1px,
+        rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px,
+        rgba(0, 0, 0, 0.09) 0px 16px 8px,
+        rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: rgba(175, 66, 23, 0.661);
+}
+
+.body-container-crews {
+    width: 60%;
+    text-align: center;
+    margin: 5%;
+    padding: 2%;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+        rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+        rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+        rgba(0, 0, 0, 0.06) 0px 2px 1px,
+        rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px,
+        rgba(0, 0, 0, 0.09) 0px 16px 8px,
+        rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: rgba(175, 66, 23, 0.661);
+}
+
+.body-title {
+    font-family: 'One Piece', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-shadow: 1px 2px rgb(138, 138, 138);
+}
+
+.yonkous {
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #ddd;
+}
+
+.crew-info-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+}
+
+.crew-info img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.crew-info {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    background-color: rgba(255, 167, 132, 0.661);
+    border-radius: 10px;
+}
+
+.crew-info:hover {
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 5);
+}
+
+.crew-body {
+    padding: 2%;
+}
