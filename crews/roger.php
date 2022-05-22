@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP SESSIONS</title>
+    <title>Roger Pirates</title>
     <link rel="stylesheet" href="../assets/css/panel.css">
+    <link href="../assets/img/favicon.ico" rel="icon" type="image/x-icon">
 </head>
 
 <?php

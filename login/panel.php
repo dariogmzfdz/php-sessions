@@ -9,8 +9,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP SESSIONS</title>
+    <title>One Piece Crews</title>
     <link rel="stylesheet" href="../assets/css/panel.css">
+    <link href="../assets/img/favicon.ico" rel="icon" type="image/x-icon">
 </head>
 
 <?php
@@ -18,7 +19,7 @@ session_start();
 
 if (!isset($_SESSION['userName'])) {
     header('Location: ../index.php ');
-    define("ERRORMSG", '<script language="javascript"> alert("This is a private section, please login");</script>');
+    define("ERRORMSG", '<script language="javascript"> alert("This is a private section, you must be logged in to access it. Please login");</script>');
     setcookie("NotLoggedCookie", ERRORMSG, time() + 1, "/");
     exit();
 };
@@ -62,6 +63,9 @@ $userName = $_SESSION['userName'];
             </article>
             <article>
                 <img class="yonkous" src="../assets/img/yonkous.jpg" alt="">
+            </article>
+            <article>
+                <div class="body-text">This is a small wiki with information about some of the most powerful crews in the One Piece universe.</div>
             </article>
         </div>
     </section>

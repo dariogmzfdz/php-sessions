@@ -98,8 +98,9 @@ body {
 .body-container {
     width: 60%;
     text-align: center;
-    margin: 5%;
-    padding: 2%;
+    margin: 4%;
+    padding: 1%;
+    padding-bottom: 2%;
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
         rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
@@ -136,8 +137,14 @@ body {
     text-shadow: 1px 2px rgb(138, 138, 138);
 }
 
+.body-text {
+    margin-top: 1%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
 .yonkous {
-    width: 500px;
+    width: 450px;
     border-radius: 20px;
     box-shadow: 0 0 20px #ddd;
 }
